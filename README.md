@@ -68,3 +68,33 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+# 📖 Modern Storyboard Tool  
+A **modern & minimal** storyboard tool for writers, built with **React**. It allows users to **add, edit, and rearrange** story points with a beautiful **drag-and-drop interface**.  
+
+🚀 **Live Demo (if hosted)**: [Coming Soon]  
+
+---
+
+## ✨ Features  
+✅ **Add new story points** dynamically  
+✅ **Drag and drop** to rearrange story flow  
+✅ **Double-click to edit** story points  
+✅ **Smooth animations** & modern UI  
+✅ **Minimal & responsive design**  
+
+---
+
+## 🖥️ Tech Stack  
+- **React** (with Hooks)  
+- **@hello-pangea/dnd** (Drag-and-drop functionality)  
+- **CSS3** (Modern styling & animations)  
+
+---
+
+## 🚀 Installation & Setup  
+### 1️⃣ Clone the Repository  
+```sh
+git clone https://github.com/your-username/storyboard-tool.git
+cd storyboard-tool
+
