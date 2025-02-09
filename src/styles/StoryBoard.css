@@ -1,0 +1,23 @@
+/* 📝 Storyboard Container */
+.storyboard {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 15px;
+    background: #F4F7FC; /* Light gray background */
+    border-radius: 10px;
+    min-height: 250px;
+    border: 2px dashed #4A90E2;
+    box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  /* 📝 Empty Message */
+  .empty-message {
+    text-align: center;
+    color: #888;
+    font-size: 16px;
+    font-style: italic;
+    margin-top: 10px;
+  }
+  

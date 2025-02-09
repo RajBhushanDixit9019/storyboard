@@ -1,0 +1,45 @@
+/* 🌟 Reset & Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+/* 📌 Page Background */
+body {
+  background: #F4F7FC; /* Soft gray for a modern feel */
+  color: #333;
+}
+
+/* 📌 Main App Container */
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  background: #FFFFFF;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+
+/* 📝 Add Story Button */
+.add-btn {
+  background: #4A90E2;
+  color: white;
+  border: none;
+  padding: 12px 18px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.add-btn:hover {
+  background: #357ABD;
+  transform: scale(1.05);
+}

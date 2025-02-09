@@ -1,0 +1,17 @@
+/* Header Styling */
+.header {
+    background: #007bff;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 8px 8px 0 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Add subtle hover effect */
+  .header:hover {
+    background: #0056b3;
+  }
+  

@@ -1,0 +1,44 @@
+/* ✏️ Story Point (Draggable Card) */
+.story-point {
+    padding: 15px;
+    background: #E3ECFF; /* Light blue background */
+    border: 1px solid #B2C7FF;
+    border-radius: 8px;
+    cursor: grab;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.07);
+    transition: all 0.2s ease-in-out;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    color: #333;
+    margin: 5px;
+  }
+  
+  .story-point:hover {
+    background: #D2E0FF;
+  }
+  
+  .story-point:active {
+    cursor: grabbing;
+    transform: scale(1.02);
+  }
+  
+  /* ✏️ Editable Input */
+  .story-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #B2C7FF;
+    border-radius: 6px;
+    outline: none;
+    text-align: center;
+    background: #F7F9FC;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .story-input:focus {
+    border-color: #4A90E2;
+    background: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
